@@ -1,0 +1,42 @@
+.body{
+margin: 0;
+padding: 0;
+
+}
+.container{
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+   background-color: rgb(230, 244, 230);
+   
+   margin-top: 250px;
+   overflow: hidden;
+   width: 50%;
+  height: 250px;
+   margin-left: 25%;
+   border-radius: 15px;
+   
+}
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.head{
+    margin: 10px;
+}
+.base{
+    text-align: center;
+    border-bottom: 1px solid;  
+}
+
+input[type=button]:active{
+
+    box-shadow: 10px 5px 40px 10px rgb(224, 60, 23);
+   
+    width: 250px;
+   
+}
+.enter{
+    margin-top: 30px;
+}
